@@ -1,12 +1,12 @@
 {
   "name": "kkutu-core",
   "version": "2.5.1",
-  "description": "Rule the words! KKuTu Online Core",
+  "description": "Rule the words! DasKKuTu Online Core",
   "repository": "https://github.com/JJoriping/KKuTu",
   "keywords": [
     "kkutu"
   ],
-  "author": "JJoriping",
+  "author": "cookedas",
   "dependencies": {
     "body-parser": "^1.15.2",
     "colors": "^1.1.2",
