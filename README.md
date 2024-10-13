@@ -1,3 +1,4 @@
+본 레포지토리는 다스끄투의 것입니다.
 # KKuTu
 - Made by [JJoriping](http://blog.jjo.kr/)
 - Special thanks to
