@@ -507,6 +507,7 @@ iframe{
 	.rounds{
 		margin-top: -130px;
 		width: 990px;
+		margin: auto;
 		color: #FFFFFF;
 		text-align: center;
 		text-shadow: 0px 1px 1px #141414;
@@ -514,6 +515,7 @@ iframe{
 	.cw.rounds{ margin-top: -380px; }
 		.rounds label{ margin: 0px 3px; }
 		.cw.rounds label{ cursor: pointer; }
+		.painter.rounds{ margin-left: -1.5em !important;}
 		.rounds-current{ color: #FFFF3B; font-size: 16px; }
 		.round-effect{ animation: RoundEffect 0.8s ease 1; }
 	.history-holder{
