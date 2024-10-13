@@ -11,7 +11,7 @@
 	* [English](#english)
 
 ## 한국어
-> 글자로 놀자! 끄투 온라인
+> 여러 단어가 모여있는 다스끄투! 온라인
 
 **끄투**는 여러분의 어휘력을 발휘할 수 있는 다양한 단어 게임들이 모여 있는 캐주얼 게임입니다.
 로봇과 혼자서 게임을 할 수도 있고, 서버에 접속해 있는 다른 사람들과 함께 할 수도 있죠.
@@ -56,8 +56,12 @@
 - 모든 이미지 및 소리에 대해: [크리에이티브 커먼즈 라이선스 CC BY](https://creativecommons.org/licenses/by/4.0/)
 	- 다만 본 레포지토리에서 제공하는 소스 코드로 끄투 서비스를 운영하기 위해 이들을 사용하는 경우 저작자 표시(BY)를 생략할 수 있습니다.
 
+### 팁
+- *.min.js 수정이 들어가는 PR은 *.min.js를 제외한 모든 파일을 요구대로 수정 후 Server\lib에 있는 grunt.cmd를 실행시켜주세요. 그러면 *.min.js가 수정됩니다.
+- grunt는 자바스크립트의 압축 서비스입니다. grunt는 최신 자바스크립트 문법을 지원하지 않으므로, "grunt 대신 WebPack 추가" PR을 적용해주세요. (선택)
+
 ## English
-> Rule the words! KKuTu Online
+> Rule the words! DasKKuTu! Online
 
 **KKuTu** is a casual game containing various word games that let players use their vocabulary.
 Players can play alone with a robot, or play with other players who have entered to a server.
