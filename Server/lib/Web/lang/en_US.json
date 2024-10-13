@@ -2,7 +2,7 @@
 	"__README__": "English table is not built yet due to the absence of my English skill. Please translate this if you are good at English.",
 
 	"GLOBAL": {
-		"GPL": "<div style='color: #666;'>Rule the words! KKuTu Online Copyright (C) {year} {author}({email addr.})<br>This program comes with ABSOLUTELY NO WARRANTY.<br>This is free software, and you are welcome to redistribute it under certain conditions.<br>For details visit the repository of this software: <a target='_blank' href='{url of the source code of this server}'>{url of the source code of this server}</a></div>",
+		"GPL": "<div style='color: #666;'>Rule the words! DasKKuTu Online. Copyright (C) 2022 ~ 2024 cookedas({nageune1010@gmail.com})<br>This program comes with ABSOLUTELY NO WARRANTY.<br>This is free software, and you are welcome to redistribute it under certain conditions.<br>For details visit the repository of this software: <a target='_blank' href='{url of the source code of this server}'>{url of the source code of this server}</a></div>",
 
 		"CREATOR":	"개발자 블로그",
 		"HOME":		"FA{home}",
@@ -121,7 +121,8 @@
 		"withLine": "라인 아이디로 로그인",
 		"withInstagram": "인스타그램 아이디로 로그인",
 		"withSpotify": "Spotify 아이디로 로그인",
-		"login_kkutu": "글자로 놀자! 끄투 온라인을 이용하시려면 로그인을 해 주세요."
+		"login_kkutu": "여러 단어가 모여있는 다스끄투! 온라인을 이용하시려면 로그인을 해주세요.",
+		"loginLegal": "여러 단어가 모여있는 다스끄투! 온라인을 로그인을 하시면 다스끄투가 공지하는 운영정책에 동의하는 것으로 간주합니다."
 	},
 	"loginfail": {
 		"title": "로그인 실패",
@@ -129,8 +130,8 @@
 		"login": "로그인"
 	},
 	"kkutu": {
-		"title": "글자로 놀자! 끄투 온라인",
-		"version": "2.5.1",
+		"title": "여러 단어가 모여있는 다스끄투!",
+		"version": "2.6.0",
 		
 		"meta_desc": "온라인 끝말잇기, 앞말잇기, 자음퀴즈, 십자말풀이, 타자 대결까지! 끄투에서 어휘력의 제왕이 되어 보세요.",
 		"meta_keys": "끄투,kkutu,끝말잇기,온라인,웹,쿵쿵따,영어끝말잇기,영어쿵쿵따,시리토리,끝말잇기사이트,자음퀴즈,초성퀴즈,자퀴,십자말풀이,가로세로,타자,타자연습,앞말잇기",
