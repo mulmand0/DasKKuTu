@@ -60,6 +60,9 @@
 - *.min.js 수정이 들어가는 PR은 *.min.js를 제외한 모든 파일을 요구대로 수정 후 Server\lib에 있는 grunt.cmd를 실행시켜주세요. 그러면 *.min.js가 수정됩니다.
 - grunt는 자바스크립트의 압축 서비스입니다. grunt는 최신 자바스크립트 문법을 지원하지 않으므로, "grunt 대신 WebPack 추가" PR을 적용해주세요. (선택)
 
+### 필수 적용사항
+DasKKuTu-master 폴더 안에 있는 paint 이미지 파일을 Server\lib\Web\image\kkutu로 이동시켜 주세요. 안하면 그림퀴즈 모드가 작동하지 않습니다.
+
 ## English
 > Rule the words! DasKKuTu! Online
 
