@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
+// 여긴 끄투 서버 매니저 설정파일이다. 건들면 잘못되니 되도록이면 수정을 하지 말자.
 const Spawn = require("child_process").spawn;
 const JLog = require("./lib/sub/jjlog");
 const PKG = require("./package.json");

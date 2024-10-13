@@ -1,6 +1,6 @@
 {
-	"server-name": "다스끄투",
-	"web-num-cpu": 1,
-	"game-num-cpu": 1,
-	"game-num-inst": 1
+	"server-name": "다스끄투", // 이걸 수정해야지 끄투 실행 후 웹에 다스끄투라고 뜬다.
+	"web-num-cpu": 1, // Web서버를 킬 CPU 코어의 넘버.
+	"game-num-cpu": 1, // Game서버를 킬 CPU 코어의 넘버
+	"game-num-inst": 1 // 서버의 갯수다. 서버를 추가하려면 수정하자. (최대 6)
 }

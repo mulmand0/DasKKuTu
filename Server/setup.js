@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
+// 여긴 server-setup.bat 세팅파일이다. 없으면 실행이 안된다.
 const Spawn = require("child_process").spawn;
 const FS = require("fs");
 
