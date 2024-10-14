@@ -66,7 +66,7 @@
 - 나눔바른고딕, 돋움을 다른 폰트로 변경하시려면 변경할 폰트파일(woff)를 Server\lib\Web\public\media에 (*.woff)파일을 넣어주세요. 그런 후 css 폴더로 가서 폰트 파일을 적용해주세요.
 
 ### 필수 적용사항
-DasKKuTu-master 폴더 안에 있는 paint 이미지 파일을 Server\lib\Web\image\kkutu로 이동시켜 주세요. 안하면 그림퀴즈 모드가 작동하지 않습니다.
+현재 없음.
 
 ## English
 > Rule the words! DasKKuTu! Online
