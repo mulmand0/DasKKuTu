@@ -1,5 +1,6 @@
 # KKuTu
 - Made by [JJoriping](http://blog.jjo.kr/)
+- Made DasKKuTu by Mulmand0
 - Special thanks to
 	* [샌드박스 :: SDBX](http://cafe.naver.com/sdbx)
 	* [SWMaestro](http://www.swmaestro.kr)
@@ -11,7 +12,7 @@
 	* [English](#english)
 
 ## 한국어
-> 글자로 놀자! 끄투 온라인
+> 여러 단어가 모여있는 다스끄투! 온라인
 
 **끄투**는 여러분의 어휘력을 발휘할 수 있는 다양한 단어 게임들이 모여 있는 캐주얼 게임입니다.
 로봇과 혼자서 게임을 할 수도 있고, 서버에 접속해 있는 다른 사람들과 함께 할 수도 있죠.
@@ -20,9 +21,9 @@
 ### 설치 방법
 #### Windows 환경
 1. 이 레포지토리를 내려받습니다.
-1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 8 이상)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다.
+1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 17)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다.
 1. 명령 프롬프트에서 `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
-1. [PostgreSQL](https://www.postgresql.org/) 인스톨러를 내려받아 *pgAdmin*(자동으로 설치됨)과 함께 설치합니다.
+1. [PostgreSQL](https://www.postgresql.org/) 인스톨러를 내려받아(버전 14) *pgAdmin*(자동으로 설치됨)과 함께 설치합니다.
 1. *pgAdmin*을 실행시키고 SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
 	* 자세한 과정은 [개발자 블로그][dev-blog]를 참고하세요.
 1. 배치 파일(`./server-setup.bat`)을 실행시킵니다.
@@ -31,9 +32,9 @@
 
 #### Linux 환경
 1. 이 레포지토리를 내려받습니다.
-1. 패키지 매니저를 이용하여 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 8 이상)합니다.
+1. 패키지 매니저를 이용하여 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 17 이상)합니다.
 1. `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
-1. 패키지 매니저를 이용하여 [PostgreSQL](https://www.postgresql.org/)과 *psql*을 설치합니다.
+1. 패키지 매니저를 이용하여 [PostgreSQL](https://www.postgresql.org/)과 *psql*을 설치합니다. (버전 14 이상)
 1. SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
 	1. 명령어를 다음 예와 같이 입력할 수 있습니다: `sudo -u postgres psql --quiet main < ./db.sql`
 1. 섈 스크립트 파일(`./server-setup.bat`)을 실행시킵니다. (Windows 전용 파일이지만 Linux에서도 작동합니다.)
